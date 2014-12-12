@@ -1,0 +1,135 @@
+@import "modules/basic-color";
+
+.page-wrap {
+    background-color:white;
+    .topnav {
+        border-bottom:2px solid $color-October;
+        margin:5px;
+        font-size:18px;
+        a {
+            float:left;
+            display:block;
+            width:120px;
+            height:38px;
+            line-height:38px;
+            text-align:center;
+            color:$color-October;
+            text-decoration:none;
+            &.active {
+                color:white;
+                background-color:$color-October;
+            }
+        }
+    }
+}
+
+.imgsort-wrapper {
+    list-style-type: none;
+    margin-left:5px;
+    margin-right:5px;
+    padding: 10px 32px;
+    border-bottom:1px solid $color-text-weaken;
+    li {
+        width:100px;
+        margin-right:64px;
+        .imgsort-list {
+            display:block;
+            width:100px;
+            .icon-sort {
+                width:100px;height:100px;
+                margin-left:0px;
+                background-color:black;
+            }
+            .imgsort-info {
+                display:block;
+                width:100%;
+                margin-top:10px;
+                text-align:center;
+                font-size:18px;
+            }
+        }
+    }
+}
+
+.category-wrapper {
+    .floor__head {
+        padding:10px;
+        margin:10px 5px;
+        border-bottom:2px solid #e8e8e8;
+        font-size:20px;
+        color:$color-October;
+        font-weight:bold;
+    }
+    .category__list {
+        list-style-type: none;
+        .deal-title {
+            float:left;
+            width:200px;
+            padding:5px 10px;
+            border:1px solid #e8e8e8;
+            margin-right:6px;
+            margin-bottom:20px;
+            .deal-title__describe {
+                h3 {
+                    margin-bottom:5px;
+                }
+                p {
+                    margin:0;
+                    color:$color-text-weaken;
+                }
+                strong.num{
+                    color:$color-December;
+                }
+            }
+            .deal-title__cover {
+                display:block;
+                position:relative;
+                cursor:default;
+            }
+            .deal-title__cart {
+                position:absolute;
+                background-color:#e8e8e8;
+                bottom:0;
+                padding-top:10px;
+                display:none;
+                .cart-select__area {
+                    width:200px;
+                    height:50px;
+                    font-size:24px;
+                    text-align:center;
+                    .cart-select__area-btn {
+                        display:inline-block;
+                        text-decoration:none;
+                        width:40px;
+                        height:48px;
+                        line-height:48px;
+                        border:1px solid $color-October;
+                        cursor:pointer;
+                    }
+                    .cart-select__area-number {
+                        display:inline-block;
+                        width:60px;
+                        height:48px;
+                        line-height:48px;
+                    }
+                }
+                .cart-select__result {
+                    color:$color-December;
+                    padding:2px 20px;
+                }
+            }
+            .deal-title__cover:hover {
+                .deal-title__cart {
+                    display:block;
+                }
+            }
+            .sales {
+                display:block;
+                background-color:#e8e8e8;
+            }
+
+        }
+
+    }
+
+}
