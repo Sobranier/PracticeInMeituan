@@ -25,28 +25,11 @@
 .ct {
 	margin:0 auto;
 }
-a.common-link {
-	display:block;
-	border-bottom:1px solid darken($color-bg-light, 10%);
-	&:hover {
-		color:$color-September;
-		border-bottom:1px solid $color-September;
-		&:before, &:after {
-			color:$color-September;
-		}
-	}
-	&:before {
-		content:"{";
-	}
-	&:after {
-		content:"}";
-	}
-	&:before, &:after {
-		color:darken($color-bg-light, 10%);
-		
-	}
-	
+
+.hidden {
+    display:none;
 }
+
 body {
 	color:$color-text;
 	font-family:Tahoma,Arial,”Helvetica Neue“,”Hiragino Sans GB”,Simsun,sans-self;
@@ -67,9 +50,6 @@ body {
             padding:5px 7px;
             margin-left:0;
         }
-        .header__span--city {
-            max-width:90px;
-        }
         .header__span--address {
             display:inline-block;
             max-width:242px;
@@ -83,7 +63,7 @@ body {
     .header__branding {
         margin-bottom:10px;
         .logo {
-            margin:13px 62px 0 0;
+            margin:13px 0;
             a {
                 display:block;
                 height:67px;
@@ -91,23 +71,38 @@ body {
                 @include base-sprite(logo);
             }
         }
-        .form-search {
-            margin:29px 0 0;
-            .form-search__input {
-                width:335px;
-                padding:8px 5px;
-                border:3px solid $color-October;
+        .header__city {
+            margin-top:32px;
+            margin-right:32px;
+            .header__city--id {
+               margin:0;
             }
-            .form-search__btn {
-                width:72px;
-                height:40px;
-                line-height:32px;
-                color:white;
+
+
+        }
+        
+        .search-box {
+            position:relative;
+            margin-top:29px;
+            .form-search {
+                margin:0;
+                .form-search__input {
+                    width:335px;
+                    padding:8px 5px;
+                    border:3px solid $color-October;
+                }
+                .form-search__btn {
+                    width:72px;
+                    height:40px;
+                    line-height:32px;
+                    color:white;
+                }
             }
         }
+        
 
         .header__nav {
-            margin-right:30px;
+            margin-right:5px;
             margin-top:27px;
             line-height:40px;
             a {

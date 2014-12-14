@@ -1,4 +1,4 @@
-i<div class = "stick-qrcode">
+<div class = "stick-qrcode">
 
 
 </div>

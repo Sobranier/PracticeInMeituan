@@ -1,0 +1,21 @@
+[
+    {
+        "categoryName": "叶菜类",
+        "dealList": [
+            {
+                "name": "甘蓝圆白菜",
+                "imgsrc": "../../image/test.png",
+                "store": false,
+                "des": "一袋约20斤，约8-10个",
+                "price": 11,
+                "unit": "袋",
+                "amount": "5",
+                "amountUnit": "斤",
+                "averagePrice: : "0.55",
+                "averageUnit" : "元/斤",
+                "total" : "2000袋"
+            }
+        ]
+    }
+
+]

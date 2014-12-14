@@ -23,30 +23,41 @@
     }
 }
 
-.imgsort-wrapper {
-    list-style-type: none;
+.sort-wrapper {
     margin-left:5px;
     margin-right:5px;
-    padding: 10px 32px;
-    border-bottom:1px solid $color-text-weaken;
+    padding: 10px 0;
+    ul {
+        list-style-type: none;
+        margin:0;
+        padding:5px 20px;
+        border:1px solid $color-October;
+    }
     li {
+        float:left;
         width:100px;
         margin-right:64px;
         .imgsort-list {
             display:block;
             width:100px;
-            .icon-sort {
-                width:100px;height:100px;
-                margin-left:0px;
-                background-color:black;
+            text-align:center;
+            color:$color-October;
+            padding:3px 0;
+            border-radius:4px;
+            cursor:pointer;
+            
+            &:hover {
+                color:white;
+                background-color:$color-October;
+                text-decoration:none;
             }
-            .imgsort-info {
-                display:block;
-                width:100%;
-                margin-top:10px;
-                text-align:center;
-                font-size:18px;
-            }
+        }
+    }
+    li.selected {
+        a.imgsort-list {
+            color:white;
+            background-color:$color-October;
+            cursor:default;
         }
     }
 }

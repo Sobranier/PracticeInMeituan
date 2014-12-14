@@ -16,18 +16,18 @@
 ?>
     </title>
 
-    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="../../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="../../i/sitelogo_32X32.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../css/img/sitelogo_32X32.ico" type="image/x-icon">
 <?php
-    $link = '<link rel="stylesheet" href="%s/css/partials/%s.css">';
+    $link = '<link rel="stylesheet" href="%s/css/partials/%s.css" media="%s">';
     $rel = '../..';
-    echo sprintf ($link, $rel, 'base');
+    echo sprintf ($link, $rel, 'bootstrap.min', 'screen');
+    echo sprintf ($link, $rel, 'bootstrap-responsive.min', 'screen');
+    echo sprintf ($link, $rel, 'base', '');
     if (isset($cssfile)) {
         foreach ($cssfile as $value) {
-            echo sprintf ($link, $rel, $value);
+            echo sprintf ($link, $rel, $value, '');
         }
     }
 ?>
-    <script src="../../bootstrap/jquery-2.1.1.min.js"></script>
-    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../js/jquery-2.1.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>

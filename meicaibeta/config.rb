@@ -6,7 +6,7 @@ http_path = "../.."
     #File.expand_path("..", __FILE__)
 css_dir = "css"
 sass_dir = "sass"
-images_dir = "i"
+images_dir = "css/img"
 sprite_load_path = "sass/sp"
 javascripts_dir = "javascripts"
 

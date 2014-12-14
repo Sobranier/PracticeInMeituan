@@ -1,0 +1,123 @@
+[
+    {
+        "categoryName": "叶菜类",
+        "dealList": [
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1001.jpg",
+                "store": false,
+                "des": "一袋约20斤，约8-10个",
+                "price": 11,
+                "unit": "袋",
+                "amount": 20,
+                "amountUnit": "斤",
+                "averagePrice": "0.55",
+                "averageUnit": "元/斤",
+                "total": "2000袋"
+            },
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1002.jpg",
+                "store": false,
+                "des": "一袋约10斤，约4-5个",
+                "price": 6,
+                "unit": "袋",
+                "amount": 10,
+                "amountUnit": "斤",
+                "averagePrice": "0.6",
+                "averageUnit": "元/斤",
+                "total": "7739袋"
+            },
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1002.jpg",
+                "store": false,
+                "des": "一袋约10斤，约4-5个",
+                "price": 6,
+                "unit": "袋",
+                "amount": 10,
+                "amountUnit": "斤",
+                "averagePrice": "0.6",
+                "averageUnit": "元/斤",
+                "total": "7739袋"
+            },
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1002.jpg",
+                "store": false,
+                "des": "一袋约10斤，约4-5个",
+                "price": 6,
+                "unit": "袋",
+                "amount": 10,
+                "amountUnit": "斤",
+                "averagePrice": "0.6",
+                "averageUnit": "元/斤",
+                "total": "7739袋"
+            },
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1002.jpg",
+                "store": false,
+                "des": "一袋约10斤，约4-5个",
+                "price": 6,
+                "unit": "袋",
+                "amount": 10,
+                "amountUnit": "斤",
+                "averagePrice": "0.6",
+                "averageUnit": "元/斤",
+                "total": "7739袋"
+            },
+            {
+                "name": "甘蓝圆白菜(紧实)",
+                "imgsrc": "../../image/1002.jpg",
+                "store": false,
+                "des": "一袋约10斤，约4-5个",
+                "price": 6,
+                "unit": "袋",
+                "amount": 10,
+                "amountUnit": "斤",
+                "averagePrice": "0.6",
+                "averageUnit": "元/斤",
+                "total": "7739袋"
+            }
+        ]
+    },
+    {
+        "categoryName": "茄果类",
+        "dealList": [
+            {
+                "name": "甘蓝圆白菜",
+                "imgsrc": "../../image/1003.jpg",
+                "store": false,
+                "des": "一袋约20斤，约8-10个",
+                "price": 11,
+                "unit": "袋",
+                "amount": 5,
+                "amountUnit": "斤",
+                "averagePrice": "0.55",
+                "averageUnit": "元/斤",
+                "total": "2000袋"
+            }
+        ]
+    },
+    {
+        "categoryName": "茄果类",
+        "dealList": [
+            {
+                "name": "甘蓝圆白菜",
+                "imgsrc": "../../image/1003.jpg",
+                "store": false,
+                "des": "一袋约20斤，约8-10个",
+                "price": 11,
+                "unit": "袋",
+                "amount": 5,
+                "amountUnit": "斤",
+                "averagePrice": "0.55",
+                "averageUnit": "元/斤",
+                "total": "2000袋"
+            }
+        ]
+    }
+
+
+]

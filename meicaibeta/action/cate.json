@@ -1,0 +1,25 @@
+[
+    {
+        "cityId": 1,
+        "categoryList": [
+            {
+                "categoryBigName": "蔬菜水果",
+                "linkrel": "0001"
+            },
+            {
+                "categoryBigName": "肉禽水产",
+                "linkrel": "0002"
+            },
+            {
+                "categoryBigName": "米面粮油",
+                "linkrel": "0003"
+            },
+            {
+                "categoryBigName": "调料其他",
+                "linkrel": "0004"
+            }
+
+        ]
+    }
+
+]
