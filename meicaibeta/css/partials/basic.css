@@ -1,0 +1,45 @@
+/*
+* {
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+	transition: 0.5s;
+}*/
+/* line 8, ../../sass/partials/basic.scss */
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 17, ../../sass/partials/basic.scss */
+.fl {
+  float: left;
+}
+
+/* line 20, ../../sass/partials/basic.scss */
+.fr {
+  float: right;
+}
+
+/* line 23, ../../sass/partials/basic.scss */
+.ct {
+  margin: 0 auto;
+}
+
+/* line 27, ../../sass/partials/basic.scss */
+.hidden {
+  display: none;
+}
+
+/* line 30, ../../sass/partials/basic.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 33, ../../sass/partials/basic.scss */
+.text-center {
+  text-align: center;
+}

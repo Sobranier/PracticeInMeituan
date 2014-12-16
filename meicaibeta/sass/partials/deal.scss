@@ -19,6 +19,9 @@
                 color:white;
                 background-color:$color-October;
             }
+            &.hidden {
+                display:none;
+            }
         }
     }
 }

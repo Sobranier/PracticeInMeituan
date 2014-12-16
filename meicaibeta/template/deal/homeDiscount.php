@@ -1,7 +1,7 @@
 <?php
-    $title = "homeSave";
+    $title = "homeDiscount";
     $cssfile = array("base", "deal");
-    $jsfile = array("initDeal", "initSave");
+    $jsfile = array("initDeal", "initDiscount");
     include_once ("../common/head.php");
 ?>
 <body class = "pg-deal">

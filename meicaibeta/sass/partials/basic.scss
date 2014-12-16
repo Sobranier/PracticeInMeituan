@@ -1,0 +1,35 @@
+/*
+* {
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+	transition: 0.5s;
+}*/
+.cf {
+	&:after {
+		content:'';
+		display:block;
+		clear:both;
+		height:0;
+		overflow:hidden;
+		visibility:hidden;
+	}
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.ct {
+	margin:0 auto;
+}
+
+.hidden {
+    display:none;
+}
+ul {
+    list-style-type:none;
+}
+.text-center {
+    text-align:center;
+}

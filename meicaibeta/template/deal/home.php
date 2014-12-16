@@ -1,6 +1,6 @@
 <?php
     $title = "home";
-    $cssfile = array("deal");
+    $cssfile = array("base", "deal");
     $jsfile = array("initDeal", "initHome");
     include_once ("../common/head.php");
 ?>

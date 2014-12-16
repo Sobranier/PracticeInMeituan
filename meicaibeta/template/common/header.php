@@ -24,11 +24,14 @@
                 <a href="#" >切换城市</a>
             </div>
             
-            <div class="search-box fl">
+            <div class="search-box fl" id="J-search-box">
                 <form class = "form-search">
-                    <input type = "text" class = "form-search__input" placeholder = "输入菜名搜索">
+                    <input type = "text" class = "form-search__input" id = "J-form-search__input" placeholder = "输入菜名搜索">
                     <button type = "submit" class = "btn btn-success form-search__btn">搜索</button>
                 </form>
+                <ul class = "search-suggest" id = "J-search-suggest" style="display:none;">
+                    
+                </ul>
 
             </div>
            
