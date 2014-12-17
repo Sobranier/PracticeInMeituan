@@ -1,161 +1,219 @@
-<div class = "page-list page-list--first">
-    <div class = "page-list-back">
-        <div class = "container">
-            <div class = "application fl">
-                <a class = "application-code"></a>
+<div class = "siteface">
+    <div class = "container">
+        <div class = "row">
+            <div class = "span4">
+                <span class = "siteface-logo ct" id = "J-qcode"></span>
             </div>
-            <div class = "slogan fr">
-                <h2>美菜网</h2>
-                <h3>打造中国餐饮原材料服务第一品牌</h3>
-                <h3>开放，服务，极致</h3>
-                <h3>省钱，省心，省力<h3>
+            <div class = "span8">
+                <h2 class = "siteface-title">中国最大、最专业的生鲜服务商<h2>
+                <ul class = "siteface-nav">
+                    <li>我们致力打通农场品的供应链</li>
+                    <li>让农场品真正实现从田间直达餐桌</li>
+                    <li>从地头直达终端消费者</li>
+                </ul>
+                <div class = "siteface-butt cf">
+                    <button class = "butt butt-gre fl">下载手机APP</button>
+                    <button class = "butt butt-whi fl lastone">进入商城</button>
+                </div>
             </div>
-            
-            
+        </div>
+    </div>
+
+</div>
+
+
+<div class = "sitecontent sitecontent-odd">
+    <div class = "container">
+        <h2 class = "sitecontent-title">简单 方便</h2>
+        <div class = "row">
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--1"></span>
+                <h3 class = "site-subtitle">微信/客户端下单</h3>
+            </div>
+            <div class = "span1">
+                <span class = "site-icon-next"></span>
+            </div>
+            <div class = "span4">
+                <span class = "site-icon-large site-icon-large--2"></span>
+                <h3 class = "site-subtitle">客服确认/处理订单</h3>
+            </div>
+            <div class = "span1">
+                <span class = "site-icon-next"></span>
+            </div>
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--3"></span>
+                <h3 class = "site-subtitle">鲜味直达</h3>
+            </div>
         </div>
     </div>
 </div>
-<div class = "page-list page-list-second">
-    <div class = "container">
-        <h2>
-            <span class = "divide-line"></span>
-            <p class = "divide-content">方便服务</span>
-        </h2>
-        <ul class = "flowWrapper cf">
-            <li class = "span4">
-                <span class = "flowWrapper-icon flowWrapper-icon--1"></span>
-                <h3>微信/客户端下单</h3>
-            </li>
-            <li class = "span1"><span class="flowWrapper-icon-next"></span></li>
-            <li class = "span4">
-                <span class="flowWrapper-icon flowWrapper-icon--2"></span>
-                <h3>订单处理、客服确认</h3>
-            </li>
-            <li class = "span1"><span class="flowWrapper-icon-next"></span></li>
-            <li class = "span3">
-                <span class="flowWrapper-icon flowWrapper-icon--3"></span>
-                <h3>食材送达</h3>
-            </li>
-        </ul>
 
-    </div>
-</div>
-<div class = "page-list page-list-second">
+<div class = "sitecontent">
     <div class = "container">
-        <h2>
-            <span class = "divide-line"></span>
-            <p class = "divide-content">放心产品</span>
-        </h2>
-        <ul class = "flowWrapper cf">
-            <li class = "span4">
-                <span class = "flowWrapper-icon flowWrapper-icon--4"></span>
-                <h3>种类齐全</h3>
-            </li>
-            <li class = "span5">
-                <span class = "flowWrapper-icon flowWrapper-icon--5"></span>
-                <h3>新鲜优质</h3>
-            </li>
-            <li class = "span3">
-                <span class = "flowWrapper-icon flowWrapper-icon--6"></span>
-                <h3>货真价实</h3>
-            </li>
-        </ul>
-
-    </div>
-</div>
-<div class = "page-list page-list-third">
-    <div class = "container">
-        <h2>
-            <span class = "divide-line"></span>
-            <p class = "divide-content">他们正在使用</span>
-        </h2>
-        <ul class = "userWrapper cf">
-            <li class = "span1"></span>
-            <li class = "span5">
-                <span class = "user-logo"></span>
-                <h3 class = "user-name">海底捞</h3>
-                <p>“Teambition，是一款轻量级的项目管理软件，可以进行项目或工作规划，分配任务，跟踪工作进度，在线讨论。UI设计很赞，上手十分容易和简单。我们用到现在都是免费的，团队的人都十分喜欢。”</p>
-            </li>
-            <li class = "span5">
-                <span class = "user-logo"></span>
-                <h3 class = "user-name">海底捞</h3>
-                <p>“Teambition，是一款轻量级的项目管理软件，可以进行项目或工作规划，分配任务，跟踪工作进度，在线讨论。UI设计很赞，上手十分容易和简单。我们用到现在都是免费的，团队的人都十分喜欢。”</p>
-            </li>
-            <li class = "span1"></span>
-            <li class = "span5">
-                <span class = "user-logo"></span>
-                <h3 class = "user-name">海底捞</h3>
-                <p>“Teambition，是一款轻量级的项目管理软件，可以进行项目或工作规划，分配任务，跟踪工作进度，在线讨论。UI设计很赞，上手十分容易和简单。我们用到现在都是免费的，团队的人都十分喜欢。”</p>
-            </li>
-            <li class = "span5">
-                <span class = "user-logo"></span>
-                <h3 class = "user-name">海底捞</h3>
-                <p>“Teambition，是一款轻量级的项目管理软件，可以进行项目或工作规划，分配任务，跟踪工作进度，在线讨论。UI设计很赞，上手十分容易和简单。我们用到现在都是免费的，团队的人都十分喜欢。”</p>
-            </li>
-        </ul>
-
-        <h2>
-            <span class = "divide-line"></span>
-            <p class = "divide-content">媒体报道</span>
-        </h2>
-        <div class = "cf">
-            <div class = "span1"></div>
-            <p class = "span10 media-report">“作为国内目前生鲜行业做得最好的创业团队，很难想象他们的团队都如此之年轻”</p>
+        <h2 class = "sitecontent-title">值得信赖</h2>
+        <div class = "row">
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--4"></span>
+                <h3 class = "site-subtitle">美味新鲜</h3>
+            </div>
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--5"></span>
+                <h3 class = "site-subtitle">种类齐全</h3>
+            </div>
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--6"></span>
+                <h3 class = "site-subtitle">品质优越</h3>
+            </div>
+            <div class = "span3">
+                <span class = "site-icon-large site-icon-large--7"></span>
+                <h3 class = "site-subtitle">货真价实</h3>
+            </div>
         </div>
-        <h2>
-            <span class = "divide-line"></span>
-            <p class = "divide-content">随时联系我们</span>
-        </h2>
-        <ul class = "contactWrapper cf">
-            <li class = "span4">
-                <span class = "contact-icon contact-icon-address"></span>
-                <div class = "contact-content">
-                    <h3 class = "user-name">地址</h3>
-                    <p>北京市海淀区中电信息大厦6楼</p>
-                </div>
-            </li>
-            <li class = "span3">
-                <span class = "contact-icon contact-icon-phone"></span>
-                <div class = "contact-content">
-                    <h3 class = "user-name">电话</h3>
-                    <p>4008004000</p>
-                </div>
-            </li>
-            <li class = "span4">
-                <span class = "contact-icon contact-icon-mail"></span>
-                <div class = "contact-content">
-                    <h3 class = "user-name">邮箱</h3>
-                    <p>XXXX2yunshanmeicai.com</p>
-                </div>
-            </li>
-            <li class = "span3"></span>
-            <li class = "span8">
-                <span class = "contact-icon contact-icon-wechat"></span>
-                <div class = "contact-content">
-                    <h3 class = "user-name">微信</h3>
-                    <p>搜索服务号“云杉美菜”</p>
-                    <p>扫描关注</p>
-                </div>
-            </li>
-
-            
-        </ul>
-
-
-
-
-
-
-
-
-
     </div>
-
-
-
-
-
-
-
 </div>
+
+<div class = "sitecontent sitecontent-odd">
+    <div class = "container">
+        <h2 class = "sitecontent-title">他们正在使用</h2>
+        <div class = "row">
+            <div class = "span6">
+                <div class = "sitecontent-content">
+                    <span class = "company-logo company-logo--1"></span>
+                    <div class = "sitecontent-say cf">
+                        <span class = "site-icon-quotes-1 fl"></span>
+                        <div class = "sitecontent-say-word fr">
+                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <span class = "site-icon-quotes-2 fr"></span>
+                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "span6">
+                <div class = "sitecontent-content">
+                    <span class = "company-logo company-logo--2"></span>
+                    <div class = "sitecontent-say cf">
+                        <span class = "site-icon-quotes-1 fl"></span>
+                        <div class = "sitecontent-say-word fr">
+                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <span class = "site-icon-quotes-2 fr"></span>
+                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "span6">
+                <div class = "sitecontent-content">
+                    <span class = "company-logo company-logo--3"></span>
+                    <div class = "sitecontent-say cf">
+                        <span class = "site-icon-quotes-1 fl"></span>
+                        <div class = "sitecontent-say-word fr">
+                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <span class = "site-icon-quotes-2 fr"></span>
+                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "span6">
+                <div class = "sitecontent-content">
+                    <span class = "company-logo company-logo--4"></span>
+                    <div class = "sitecontent-say cf">
+                        <span class = "site-icon-quotes-1 fl"></span>
+                        <div class = "sitecontent-say-word fr">
+                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <span class = "site-icon-quotes-2 fr"></span>
+                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class = "sitecontent">
+    <div class = "container">
+        <h2 class = "sitecontent-title">媒体报道</h2>
+        <div class = "row">
+            <div class = "span1">
+                <span class = "slide-btn slide-btn-left" id = "J-slide-left"></span>
+            </div>
+            <div class = "span10 slide-wrapper">
+                <div class = "row">
+                    <div class = "span1">
+                        <span class = "site-icon-quotes-1"></span>
+                    </div>
+                    <div class = "span8">
+                        <ul class = "slide-nav">
+                            <li>
+                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
+                                <h3>经济观察报2015年2月29日 A34版</h3>
+                            </li>
+                            <li>
+                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
+                                <h3>经济观察报2015年2月29日 A34版</h3>
+                            </li>
+                            <li>
+                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
+                                <h3>经济观察报2015年2月29日 A34版</h3>
+                            </li>
+                            <li>
+                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
+                                <h3>经济观察报2015年2月29日 A34版</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class = "span1">
+                        <span class = "site-icon-quotes-2 fr"></span>
+                    </div>
+                </div>
+            </div>
+            <div class = "span1">
+                <span class = "slide-btn slide-btn-right" id = "J-slide-right"></span>
+            </div>
+        </div>
+
+        <div class = "slide-tab">
+            <ul class = "slide-tab-nav cf">
+                <li class = "active"></li>
+                <li></li>
+                <li></li>
+                <li class = "lastone"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class = "sitecontent sitecontent-odd">
+    <div class = "container">
+        <h2 class = "sitecontent-title">联系我们</h2>
+        <div class = "row">
+            <div class = "span4 cf">
+                <span class = "site-icon-simple site-icon-simple--address fl"></span>
+                <div class = "contact-area fl">
+                    <h3>公司地址</h3>
+                    <p>北京市海淀区中电信息大厦6层</p>
+                </div>
+            </div>
+            <div class = "span4 cf">
+                <span class = "site-icon-simple site-icon-simple--phone fl"></span>
+                <div class = "contact-area fl">
+                    <h3>联系电话</h3>
+                    <p>400-166-1066</p>
+                </div>
+            </div>
+            <div class = "span4 cf">
+                <span class = "site-icon-simple site-icon-simple--mail fl"></span>
+                <div class = "contact-area fl">
+                    <h3>电子邮箱</h3>
+                    <p>business@yunshanmeicai.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
