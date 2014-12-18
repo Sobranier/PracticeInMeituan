@@ -18,10 +18,11 @@
 ?>
     </title>
 
-    <link rel="shortcut icon" href="../../css/img/sitelogo_32X32.ico" type="image/x-icon">
 <?php
+    $rel = ($title == 'home') ? './' : '../../';
+    $relink = '<link rel="shortcut icon" href="%scss/img/sitelogo_32X32.ico" type="image/x-icon">';
+    echo sprintf ($relink, $rel);
     $link = '<link rel="stylesheet" href="%s/css/partials/%s.css" media="%s">';
-    $rel = '../..';
     echo sprintf ($link, $rel, 'bootstrap.min', 'screen');
     echo sprintf ($link, $rel, 'bootstrap-responsive.min', 'screen');
     echo sprintf ($link, $rel, 'basic', '');
@@ -30,6 +31,6 @@
             echo sprintf ($link, $rel, $value, '');
         }
     }
+    echo '<script src="', $rel, 'js/jquery-2.1.1.min.js"></script>';
+    echo '<script src="', $rel, 'js/bootstrap.min.js"></script>';
 ?>
-    <script src="../../js/jquery-2.1.1.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>

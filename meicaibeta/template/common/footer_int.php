@@ -11,9 +11,12 @@
             <div class = "span4">
                 <ul class = "footer-infoNav">
                     <h2>关于我们</h2>
-                    <li><a href = "about.php">关于我们</a></li>
-                    <li><a href = "hire.php">加入我们</a></li>
-                    <li><a href = "about.php">联系商务合作</a></li>
+<?php
+    $rel = ($title == 'home') ? 'template/main/' : '';
+    echo'<li><a href = "', $rel, 'about.php">关于我们</a></li>',
+        '<li><a href = "', $rel, 'hire.php">加入我们</a></li>',
+        '<li><a href = "', $rel, 'about.php">联系商务合作</a></li>';
+?>
                 </ul>
             </div>
             <div class = "span4">

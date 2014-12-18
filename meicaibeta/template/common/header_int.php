@@ -9,12 +9,13 @@
 $headerList = array("hire" => "加入我们",
                     "about"    => "关于我们");
 if ($title != "home") {
-    echo '<li><a href = "home.php">首页</a></li>';
+    echo '<li><a href = "../../">首页</a></li>';
 }
 foreach ($headerList as $key => $value) {
+    $rel = ($title == "home") ? 'template/main/' : '';
     $className = ($key == "about") ? "lastone" : "";
     $className = ($key == $title) ? "active" : $className;
-    echo '<li class = "' , $className, '"><a href = "', $key, '.php">', $value, '</a></li>';
+    echo '<li class = "' , $className, '"><a href = "', $rel, $key, '.php">', $value, '</a></li>';
 }
 ?>
         </ul>

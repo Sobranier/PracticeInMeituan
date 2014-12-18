@@ -54,6 +54,24 @@
 
 .content-wrapper {
     padding-top:40px;
+    .content-info-sp {
+        .row {
+            margin-left:0;
+            margin-top:50px;
+            padding-bottom:30px;
+            position:relative;
+            background-color:$color-bg-light;
+            padding-top:114px;
+            color:$color-text-light;
+            p {
+                font-size:16px;
+            }
+            .site-map {
+                width:432px;height:397px;
+                background-image: url("../img/main/map.png");
+            }
+        }
+    }
     .content-info {
         position:relative;
         margin-bottom:40px;
@@ -176,7 +194,24 @@
     }
 }
 
-@media (max-width: 767px) {
+
+@media (min-width: 481px) and (max-width: 979px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        width:332px;height:305px;
+        background-image: url("../img/main/map-middle.png");
+    }
+}
+@media (max-width: 480px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        width:216px;height:198px;
+        background-image: url("../img/main/map-little.png");
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        margin:0 auto;
+    }
 }
 
 /*字体*/

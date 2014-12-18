@@ -28,9 +28,20 @@ Join us and do something!
         </div>
     </div>
     <div class = "tab-pane" id = "contact">
-    <我们是美菜网> 
-    • 是目前全球领域最先进智能的农产品移动电子商务平台。 
-
+        <div class = "content-info span12 content-info-sp">
+            <div class = "row">
+                <h2>如果有需要，请及时联系我们</h2>
+                <div class = "span5">
+                    <p>地址：北京市海淀区四通桥中关村南大街中电信息大厦</p>
+                    <p>邮编：100083</p>
+                    <p>电话：400-106-1106</p>
+                    <p>邮箱：vip@yunshanmeicai.com</p>
+                </div>
+                <div class = "span6">
+                    <div class = "site-map"></div>
+                </div>
+            </div>
+        </div>
     </div>
  
 
