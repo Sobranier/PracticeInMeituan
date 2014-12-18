@@ -4,6 +4,7 @@ function switchShow(pressId, targetId) {
         $(targetId).toggleClass('vshow');
     }); 
 }
+
 function switchAuto(targetId, targetClass, timer) {
     $(targetId).toggleClass(targetClass);
     setTimeout(function(){
@@ -11,7 +12,6 @@ function switchAuto(targetId, targetClass, timer) {
     }, timer);
 }
 
-//slide
-function slideShow() {
 
-}
+
+

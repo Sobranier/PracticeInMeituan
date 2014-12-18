@@ -1,5 +1,5 @@
 <div class = "container">
-    <div class = "content-info span12">
+    <div class = "content-info">
         <h2>加入我们，就等你来</h2>
         <pre>
 <我们是美菜网> 
@@ -27,55 +27,51 @@
 • 以及让你可以有钱就是任性的股票期权！ 
 
 我们很需要你，加入我们！一起改变中国的农业市场！
+
+----HR邮箱：hr@yunshanmeicai.com
         </pre>
     </div>
 
-    <div class = "content-info span12">
+    <div class = "content-info">
+        <h3>招募岗位</h3>
         <table class = "table">
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-            <tr>
-                <td><a href = "#">网页前端工程师</a></td>
-                <td>北京</td>
-                <td>15k-30k</td>
-            </tr>
-
+            <thead>
+                <tr>
+                    <th class="wid-70">岗位名称</th>
+                    <th>区域</th>
+                    <th>薪资</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href = "jobs.php?w=1">中高级JS前端开发工程师</a></td>
+                    <td>北京</td>
+                    <td>15k-30k</td>
+                </tr>
+                <tr>
+                    <td><a href = "jobs.php?w=2">中高级PHP开发工程师</a></td>
+                    <td>北京</td>
+                    <td>15k-30k</td>
+                </tr>
+                <tr>
+                    <td><a href = "jobs.php?w=3">中高级Android开发工程师</a></td>
+                    <td>北京</td>
+                    <td>13k-26k</td>
+                </tr>
+                <tr>
+                    <td><a href = "jobs.php?w=4">数据分析师</a></td>
+                    <td>北京</td>
+                    <td>15k-30k</td>
+                </tr>
+                <tr>
+                    <td><a href = "jobs.php?w=5">产品经理</a></td>
+                    <td>北京</td>
+                    <td>15k-30k</td>
+                </tr>
+            </tbody>
         </table>
 
-    </span>
+    </div>
 
 
 </div>

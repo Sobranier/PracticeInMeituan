@@ -1,8 +1,8 @@
 <?php
-    $title = "hire";
-    $fullTitle = "美菜网 - 加入我们颠覆原料行业";
+    $title = "about";
+    $fullTitle = "美菜网 - 中国餐饮原材料服务第一品牌";
     $cssfile = array("int", "comface");
-    $jsfile = array("tool", "main_init", "hire");
+    $jsfile = array("tool", "main_init");
     include_once ("../common/head.php");
 ?>
 <body class = "pg-int pg-common">

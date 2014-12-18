@@ -11,7 +11,7 @@
                     <li>让农场品真正实现从田间直达餐桌</li>
                     <li>从地头直达终端消费者</li>
                 </ul>
-                <div class = "siteface-butt cf">
+                <div class = "siteface-butt cf hidden">
                     <button class = "butt butt-gre fl">下载手机APP</button>
                     <button class = "butt butt-whi fl lastone">进入商城</button>
                 </div>
@@ -78,52 +78,52 @@
         <div class = "row">
             <div class = "span6">
                 <div class = "sitecontent-content">
-                    <span class = "company-logo company-logo--1"></span>
+                    <span class = "company-logo company-logo--1 hidden"></span>
                     <div class = "sitecontent-say cf">
                         <span class = "site-icon-quotes-1 fl"></span>
                         <div class = "sitecontent-say-word fr">
-                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <p>就像党员找到了失散多年的党组织，做生意真正放心了。</p>
                             <span class = "site-icon-quotes-2 fr"></span>
-                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                            <h4>—— 汤本味董事长  屈总</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class = "span6">
                 <div class = "sitecontent-content">
-                    <span class = "company-logo company-logo--2"></span>
+                    <span class = "company-logo company-logo--2 hidden"></span>
                     <div class = "sitecontent-say cf">
                         <span class = "site-icon-quotes-1 fl"></span>
                         <div class = "sitecontent-say-word fr">
-                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <p>开饭馆开了8年，每天天刚亮就得赶早市去买菜，一到冬天就更是辛苦，有了美菜，总算能睡个好觉了！</p>
                             <span class = "site-icon-quotes-2 fr"></span>
-                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                            <h4>—— 杨国福麻辣烫  李老板</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class = "span6">
                 <div class = "sitecontent-content">
-                    <span class = "company-logo company-logo--3"></span>
+                    <span class = "company-logo company-logo--3 hidden"></span>
                     <div class = "sitecontent-say cf">
                         <span class = "site-icon-quotes-1 fl"></span>
                         <div class = "sitecontent-say-word fr">
-                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <p>闺女给买了的高级手机，我却一直不知道除了用来打电话发信息之外还能做啥，想不到现在用来买菜却这么方便。</p>
                             <span class = "site-icon-quotes-2 fr"></span>
-                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                            <h4>—— 海淀南路某桂林米粉  曹老板</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class = "span6">
                 <div class = "sitecontent-content">
-                    <span class = "company-logo company-logo--4"></span>
+                    <span class = "company-logo company-logo--4 hidden"></span>
                     <div class = "sitecontent-say cf">
                         <span class = "site-icon-quotes-1 fl"></span>
                         <div class = "sitecontent-say-word fr">
-                            <p>每天采购是个烦心事，价格便宜的质量不好，质量好的价格高，他们正好解决了这个问题，收到高质量的菜，价格也不高</p>
+                            <p>在美菜，菜的质量和分量都有保证，而且比我自己去买还便宜，要是早几年就有美菜网就太好了！</p>
                             <span class = "site-icon-quotes-2 fr"></span>
-                            <h4>—— 王老板，联想桥张亮麻辣烫</h4>
+                            <h4>—— 没名儿生煎  毛总</h4>
                         </div>
                     </div>
                 </div>
@@ -134,54 +134,37 @@
 
 <div class = "sitecontent">
     <div class = "container">
-        <h2 class = "sitecontent-title">媒体报道</h2>
-        <div class = "row">
-            <div class = "span1">
-                <span class = "slide-btn slide-btn-left" id = "J-slide-left"></span>
-            </div>
-            <div class = "span10 slide-wrapper">
-                <div class = "row">
-                    <div class = "span1">
-                        <span class = "site-icon-quotes-1"></span>
-                    </div>
-                    <div class = "span8">
-                        <ul class = "slide-nav">
-                            <li>
-                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
-                                <h3>经济观察报2015年2月29日 A34版</h3>
-                            </li>
-                            <li>
-                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
-                                <h3>经济观察报2015年2月29日 A34版</h3>
-                            </li>
-                            <li>
-                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
-                                <h3>经济观察报2015年2月29日 A34版</h3>
-                            </li>
-                            <li>
-                                <p>作为国内目前生鲜行业做的最好的创业团队，很难想象他们的团队都如此之年轻</p>
-                                <h3>经济观察报2015年2月29日 A34版</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class = "span1">
-                        <span class = "site-icon-quotes-2 fr"></span>
+        <h2 class = "sitecontent-title">投资人</h2>
+
+        <div id="myCarousel" class="carousel slide row">
+
+            <div class="carousel-inner span12 slide-nav">
+                <div class="item active">
+                    <div class="carousel-caption">
+                        <div class = "span2 cf">
+                            <span class = "site-icon-quotes-1"></span>
+                        </div>
+                        <div class = "span8">
+                            <p>有美菜，只做菜，不买菜</p>
+                            <h3>徐小平</h3>
+                        </div>
+                        <div class = "span2 cf">
+                            <span class = "site-icon-quotes-2"></span>
+                        </div>
                     </div>
                 </div>
+
             </div>
-            <div class = "span1">
-                <span class = "slide-btn slide-btn-right" id = "J-slide-right"></span>
-            </div>
+            <ol class="carousel-indicators slide-tab cf hidden">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="3" class = "lastone"></li>
+            </ol>
+            <a class="left carousel-control slide-btn slide-btn-left hidden" href="#myCarousel" data-slide="prev"></a>
+            <a class="right carousel-control slide-btn slide-btn-right hidden" href="#myCarousel" data-slide="next"></a>
         </div>
 
-        <div class = "slide-tab">
-            <ul class = "slide-tab-nav cf">
-                <li class = "active"></li>
-                <li></li>
-                <li></li>
-                <li class = "lastone"></li>
-            </ul>
-        </div>
+
+
     </div>
 </div>
 
@@ -189,25 +172,31 @@
     <div class = "container">
         <h2 class = "sitecontent-title">联系我们</h2>
         <div class = "row">
-            <div class = "span4 cf">
-                <span class = "site-icon-simple site-icon-simple--address fl"></span>
-                <div class = "contact-area fl">
-                    <h3>公司地址</h3>
-                    <p>北京市海淀区中电信息大厦6层</p>
+            <div class = "span4">
+                <div class = "contact-content cf">
+                    <span class = "site-icon-simple site-icon-simple--address fl"></span>
+                    <div class = "contact-area fl">
+                        <h3>公司地址</h3>
+                        <p>北京市海淀区中电信息大厦6层</p>
+                    </div>
                 </div>
             </div>
-            <div class = "span4 cf">
-                <span class = "site-icon-simple site-icon-simple--phone fl"></span>
-                <div class = "contact-area fl">
-                    <h3>联系电话</h3>
-                    <p>400-166-1066</p>
+            <div class = "span4">
+                <div class = "contact-content cf">
+                    <span class = "site-icon-simple site-icon-simple--phone fl"></span>
+                    <div class = "contact-area fl">
+                        <h3>联系电话</h3>
+                        <p>400-166-1066</p>
+                    </div>
                 </div>
             </div>
-            <div class = "span4 cf">
-                <span class = "site-icon-simple site-icon-simple--mail fl"></span>
-                <div class = "contact-area fl">
-                    <h3>电子邮箱</h3>
-                    <p>business@yunshanmeicai.com</p>
+            <div class = "span4">
+                <div class = "contact-content cf">
+                    <span class = "site-icon-simple site-icon-simple--mail fl"></span>
+                    <div class = "contact-area fl">
+                        <h3>电子邮箱</h3>
+                        <p>vip@yunshanmeicai.com</p>
+                    </div>
                 </div>
             </div>
         </div>
