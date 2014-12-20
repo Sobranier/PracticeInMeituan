@@ -1,0 +1,253 @@
+@import "modules/basic-color";
+
+.siteface {
+    position:relative;
+    .subcol-nav {
+        position:absolute;
+        display:none;
+        bottom:0;
+        height:70px;
+        width:100%;
+        -webkit-transform: translate3d(0,0,0);
+
+        .subcol-nav-bg {
+            position:absolute;
+            z-index:-1;
+            top:0;
+            left:0;
+            width:100%;height:70px;
+            -webkit-filter: blur(10px);
+            background: rgba(0,0,0,.2);
+        }
+        ul {
+            margin:0;
+            li {
+                float:left;
+                width:50%;
+                a {
+                    display:block;
+                    height:50px;
+                    padding:10px 15px;
+                    font-size:20px;
+                    color:white;
+                    overflow:hidden;
+                    text-align:center;
+                    line-height:52px;
+                    cursor:pointer;
+                    &:hover {
+                        text-decoration:none;
+                        background-color: rgba(0,0,0,.2);
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: rgba(0,0,0,.5);
+                        background-color: black\9;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.content-wrapper {
+    padding-top:40px;
+    .content-info-sp {
+        .row {
+            margin-left:0;
+            margin-top:50px;
+            padding-bottom:30px;
+            position:relative;
+            background-color:$color-bg-light;
+            padding-top:114px;
+            color:$color-text-light;
+            p {
+                font-size:16px;
+            }
+            .site-map {
+                width:432px;height:397px;
+                background-image: url("../img/main/map.png");
+            }
+        }
+    }
+    .content-info {
+        position:relative;
+        margin-bottom:40px;
+        margin-left:0;
+        h2 {
+            color:white;
+            position:absolute;
+            top:-42px;left:0;
+            padding:14px 20px;
+            background-color:$color-bac-dark-green;
+            font-size:18px;
+        }
+        h3 {
+            color:white;
+            font-size:18px;
+            background-color:$color-bac-dark-green;
+            padding:14px 20px;
+            margin:0;
+
+        }
+        .job-content {
+            color:white;
+            background-color:$color-bac-dark-green;
+            padding:12px;
+            h4 {
+                font-size:24px;
+                margin:15px 0;
+            }
+            h5 {
+                font-size:16px;
+                font-weight:normal;
+            }
+            &+pre {
+                margin-top:0;
+            }
+        }
+
+        .job-select {
+            li {
+                a {
+                    display:block;
+                    padding:20px 10px;
+                    font-size:16px;
+                    color:$color-text-light;
+                    border-left:4px solid transparent; 
+                    &:hover {
+                        text-decoration:none;
+                        background-color:$color-bac-light-green;
+                    }
+                }
+
+                border-top:1px solid #e8e8e8;
+                &.lastone {
+                    border-bottom:1px solid #e8e8e8;
+                }
+                &.active {
+                    a {
+                        border-color:$color-bac-dark-green; 
+                        background-color:$color-bac-light-green; 
+                    }
+                }
+            }
+        }
+
+        pre {
+            padding:40px 35px 15px;
+            margin-top:36px;
+            border:0;
+            overflow:hidden;
+            color:$color-text;
+            line-height:2em;
+            background-color:$color-bac-light-gray;
+        }
+
+        .table {
+            color:$color-text-light;
+            th {
+                font-size:18px;
+                padding:16px 22px;
+            }
+            td {
+                font-size:16px;
+                padding:16px 22px;
+                a {
+                    color:$color-text-light;
+                }
+        
+            }
+        }
+    }
+
+}
+
+
+.pg-common {
+    .sub-about {
+        .subcol-nav {
+            display:block;
+        }
+        background-image: url("../img/main/banner_about.jpg");
+    }
+    .sub-hire, .sub-jobs {
+        background-image: url("../img/main/banner_hire.jpg");
+    }
+    .tab-content {
+        .tab-pane {
+            display:block\9;
+        }
+    }
+    #myTab {
+        display:none\9;
+    }
+}
+
+
+/*
+ * 媒体查询
+ * */
+
+@media (min-width: 481px) {
+    .content-wrapper {
+        .content-info {
+            h2 {
+                width:420px;    
+            }
+        }
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 979px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        width:332px;height:305px;
+        background-image: url("../img/main/map-middle.png");
+    }
+}
+@media (max-width: 480px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        width:216px;height:198px;
+        background-image: url("../img/main/map-little.png");
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper .content-info-sp .row .site-map {
+        margin:0 auto;
+    }
+}
+
+/*字体*/
+@media (min-width: 768px) {
+    pre {
+        font-size:16px;
+    }
+    .wid-70 {
+        width:70%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    pre {
+        font-size:14px;
+    }
+}
+@media (max-width: 480px) {
+    pre {
+        font-size:14px;
+    }
+    .pg-common {
+        .siteface {
+            .siteface-nav {
+                font-size:18px;
+            }
+        }
+    }
+}
+
+
+

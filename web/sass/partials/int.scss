@@ -1,10 +1,61 @@
 @import "modules/basic-color";
-@import "sp/base/index";
 @import "sp/basic/index";
-@import "sp/company/index";
+
+/*
+* {
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+	transition: 0.5s;
+}*/
+.cf {
+	&:after {
+		content:'';
+		display:block;
+		clear:both;
+		height:0;
+		overflow:hidden;
+		visibility:hidden;
+	}
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.ct {
+	margin:0 auto;
+}
+
+.hidden {
+    display:none;
+}
+ul {
+    list-style-type:none;
+}
+.text-center {
+    text-align:center;
+}
+
+.vhidden {
+    display:none;
+}
+.vshow {
+    display:block;
+}
+
+button {
+    background-color:transparent;
+}
+
+body{font-family: Helvetica Neue,Hiragino Sans GB,Microsoft Yahei,WenQuanYi Micro Hei,sans-serif;}
+
+/*以上为basic*/
 
 .pg-int {
     background-color: white;
+    max-width:1200px;
+    margin:0 auto;
 
 /*
  * 头部区域
@@ -50,7 +101,6 @@
         height:580-149px;
         background-position: center center;
         background-repeat: no-repeat;
-        background-color: #6BABC6;
         color:white;
         .siteface-title {
             line-height:1.2em;
@@ -198,6 +248,7 @@
             p {
                 color:$color-green-light;
                 width:190px;
+                font-size:14px;
             }
         }
     }
@@ -218,6 +269,9 @@
         color:$color-bac-light;
         .footer-infoNav {
             margin-left:0;
+            li {
+                font-size:14px;
+            }
             h2 {
                 font-size:24px;
             }
@@ -236,11 +290,12 @@
  * 不同界面
  */
 .pg-home {
+    .header--ie6 {
+        display:none;
+    }
     .header {
-        float:right;
-        .container {
-            width:100%;
-        }
+        float:left;
+        margin-bottom:140-82px;
         .navbar-nav {
             margin-top:40px;
             margin-right:40px;
@@ -262,10 +317,9 @@
             }
         }
     }
-    h1.logo {
-        display:none;
-    }
     .siteface {
+        padding-top:0;
+        height:431+149px;
         background-image: url("../img/main/banner_pic.jpg");
     }
     .siteface-logo {
@@ -276,6 +330,9 @@
         height:262px;
         margin-top:20px;
         @include basic-sprite(qrcode);
+    }
+    .siteface-logo--des {
+        font-size:20px;text-align:center;
     }
 }
 
@@ -388,6 +445,7 @@
 .company-logo.hidden{
     display:none;
 }
+/*
 .company-logo--1 {
     @include company-sprite(cp-1);
 }
@@ -400,19 +458,7 @@
 .company-logo--4 {
     @include company-sprite(cp-1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 /*
@@ -436,14 +482,12 @@
             }
         }
     }
-
 }
 
 @media (max-width: 480px) {
     .pg-int {
         .siteface {
             background-size: cover;
-            height:531px;padding-top:82px;
             .siteface-butt {
                 width:206px;
                 .butt {
@@ -471,8 +515,14 @@
         text-align:center;
     }
     .pg-home {
+        .header {
+            position:absolute;
+        }
         .siteface-nav {
             display:none;
+        }
+        .siteface-qcode {
+            margin-top:95px;
         }
     }
     .siteface-butt {
@@ -494,7 +544,7 @@
                 z-index:11;
             }
             .navbar-nav {
-                position:absolute;z-index:10;
+                position:absolute;z-index:10;top:0;
                 display:none;
                 background-color:white;
                 margin:0;
@@ -553,9 +603,12 @@
                  -o-transform: rotate(90deg);
             -webkit-transform: rotate(90deg);
                     transform: rotate(90deg);
-        }
-        
+        }    
     }
+    .pg-home .header {
+        height:0;margin-bottom:0;
+    }
+
 }
 
 
